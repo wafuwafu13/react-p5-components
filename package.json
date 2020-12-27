@@ -1,0 +1,43 @@
+{
+  "name": "react-p5-components",
+  "version": "1.0.0",
+  "description": "use p5.js in react without writing p5's code",
+  "main": "dist/index.js",
+  "scripts": {
+    "transpile": "babel src -d dist --copy-files",
+    "start": "webpack serve --mode development",
+    "prepublishOnly": "npm run transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wafuwafu13/react-p5-components.git"
+  },
+  "keywords": [
+    "react",
+    "p5.js"
+  ],
+  "author": "wafuwafu13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wafuwafu13/react-p5-components/issues"
+  },
+  "homepage": "https://github.com/wafuwafu13/react-p5-components#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.0",
+    "p5": "^1.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
