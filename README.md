@@ -46,7 +46,7 @@ import GenerateLettersByDragCanvas from "react-p5-components";
 
 ## Contributes
 I'm waiting for your contribution:)  
-Please checkout branch (branch name is free).
+Please [fork this repository](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) and [checkout branch](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/github-glossary#checkout) (branch name and commit message is free now).
 
 #### Set up local server
 
