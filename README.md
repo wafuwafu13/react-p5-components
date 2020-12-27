@@ -43,3 +43,29 @@ import GenerateLettersByDragCanvas from "react-p5-components";
 | fontColor | string | font [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) |
 | fontSizeMin | number | minimum size of letter |
 | backgroundColor | string | canvas background [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) |
+
+## Contributes
+I'm waiting for your contribution:)  
+Please checkout branch (branch name is free).
+
+#### Set up local server
+
+```
+$ cd react-p5-components
+$ npm i
+$ npm run start # connect http://localhost:3001/
+```
+
+#### Confirm your code
+
+change
+
+```jsx:example/src/index.js
+import GenerateLettersByDragCanvas from "react-p5-components";
+```
+
+to
+
+```jsx:example/src/index.js
+import GenerateLettersByDragCanvas from "../../src/GenerateLettersByDragCanvas";
+```
