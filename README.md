@@ -32,13 +32,14 @@ import GenerateLettersByDragCanvas from "react-p5-components";
 
 #### Props
 
-| Name | Type | Default | Description |
-|:---:|:---:|:---:|:---:|
-| letters | string | | generate this letters |
-| height | number | 500 | canvas height |
-| width | number | 500 | canvas width |
-| font | string | "Georgia" | [font-family](https://developer.mozilla.org/ja/docs/Web/CSS/font-family) |
-| fontColor | string | "#000000" | font [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) |
-| fontSizeMin | number | 10 | minimum size of letter |
-| backgroundColor | string | #CCCCCC | canvas background [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) |
+##### *All Props is Required.
 
+| Name | Type | Description |
+|:---:|:---:|:---:|
+| letters | string | generate this letters |
+| height | number | canvas height |
+| width | number | canvas width |
+| font | string | [font-family](https://developer.mozilla.org/ja/docs/Web/CSS/font-family) |
+| fontColor | string | font [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) |
+| fontSizeMin | number | minimum size of letter |
+| backgroundColor | string | canvas background [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) |
