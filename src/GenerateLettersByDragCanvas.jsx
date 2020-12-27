@@ -15,19 +15,19 @@ const GenerateLettersByDragCanvas = (props) => {
     let y = 0;
     let stepSize = 100;
 
-    const font = window.generateLettersByDragCanvasFont || "Georgia";
+    const font = window.generateLettersByDragCanvasFont;
     const letters = window.generateLettersByDragCanvasLetters;
-    const fontSizeMin = window.generateLettersByDragCanvasFontSizeMin || 10;
+    const fontSizeMin = window.generateLettersByDragCanvasFontSizeMin;
 
     let counter = 0;
 
     p.setup = () => {
       p.createCanvas(
-        window.generateLettersByDragCanvasHeight || 500,
-        window.generateLettersByDragCanvasWidth || 500
+        window.generateLettersByDragCanvasHeight,
+        window.generateLettersByDragCanvasWidth
       );
       p.background(
-        window.generateLettersByDragCanvasBackgroundColor || "#CCCCCC"
+        window.generateLettersByDragCanvasBackgroundColor
       );
       p.cursor(p.HAND);
 
@@ -36,7 +36,8 @@ const GenerateLettersByDragCanvas = (props) => {
 
       p.textFont(font);
       p.textAlign(p.LEFT);
-      p.fill(window.generateLettersByDragCanvasFontColor || "#000000");
+
+      p.fill(window.generateLettersByDragCanvasFontColor);
     };
 
     p.draw = () => {

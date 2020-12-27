@@ -4,7 +4,15 @@ import GenerateLettersByDragCanvas from "../../src/GenerateLettersByDragCanvas";
 
 const App = () => (
   <>
-    <GenerateLettersByDragCanvas letters={"example letters"} />
+    <GenerateLettersByDragCanvas
+      letters={"example letters"}
+      height={500}
+      width={500}
+      font={"Georgia"}
+      fontColor={"#000000"}
+      fontSizeMin={10}
+      backgroundColor={"#CCCCCC"}
+    />
   </>
 );
 
