@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import GenerateLettersByDragCanvas from "../../src/GenerateLettersByDragCanvas";
+import GenerateLettersByDragCanvas from "react-p5-components";
 
 const App = () => (
   <>
